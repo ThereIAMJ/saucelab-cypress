@@ -19,7 +19,7 @@ describe('Saucedemo different users test', () => {
   it('Logging via correct user', () => {
   /*This should work. 
     There is package for cypress, that should easly integrate in autotests, and shows perfomance info about current page.
-   cy.lighthouse(
+    cy.lighthouse(
     {
       performance: 60,
       accessibility: 90,
